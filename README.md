@@ -31,3 +31,11 @@ P.S. 2 Так же в проекте можно было реализовать 
 ВАЖНО: для авторизированого пользователя - количество запросов к GitHub Api = 30 request/min, следовательно  подгрузка дополнительных результатов возможна лишь до того момента пока этот лимит не исчерпается, после чего GitHub Api будет возращать код 403 Forbidden.
 
 ВАЖНО 2: для неавторизированого пользователя в ситуации когда видны предыдущие результаты поиска - подгрузка следующих результатов не работает, пока он не авторизируется.
+
+
+
+![alt text](https://github.com/kirya46/GitHubViewer/blob/master/screenshots/Screenshot_1531306625.png)
+
+![alt text](https://github.com/kirya46/GitHubViewer/blob/master/screenshots/Screenshot_1531306609.png)
+
+![alt text](https://github.com/kirya46/GitHubViewer/blob/master/screenshots/Screenshot_1531306869.png)
