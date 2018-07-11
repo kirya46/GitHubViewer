@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical"
+    android:background="@color/colorPrimary"
+    android:padding="16dp"
+    >
+
+    <TextView
+        android:id="@+id/tvAppName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"
+        android:textSize="24sp"
+        android:textColor="@color/colorWhiteTransculent"
+        android:layout_centerHorizontal="true"
+        />
+
+    <android.support.v7.widget.AppCompatEditText
+        android:id="@+id/etUserName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvAppName"
+        android:layout_marginTop="32dp"
+        android:textColor="@color/colorWhite"
+        android:textColorHint="@color/colorWhiteTransculent"
+        android:hint="@string/label_content_user_name"
+        android:theme="@style/MyEditTextTheme"
+        />
+
+    <EditText
+        android:id="@+id/etUserPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etUserName"
+        android:textColor="@color/colorWhite"
+        android:textColorHint="@color/colorWhiteTransculent"
+        android:hint="@string/label_content_password"
+        android:theme="@style/MyEditTextTheme"
+        android:inputType="textPassword"
+        />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etUserPassword"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="48dp"
+
+        >
+        <Button
+            android:id="@+id/btnSingIn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingStart="32dp"
+            android:paddingEnd="32dp"
+            android:text="@string/label_content_sing_in"
+            android:background="@color/colorPrimaryLight"
+            android:textColor="@color/colorAccent"
+            />
+
+        <ProgressBar
+            android:id="@+id/progressBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:indeterminate="true"
+            android:visibility="gone"
+            />
+
+    </RelativeLayout>
+</RelativeLayout>

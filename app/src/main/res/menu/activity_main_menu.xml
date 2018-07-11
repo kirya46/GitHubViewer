@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/actionExitApp"
+        android:title="Exit"
+        android:icon="@drawable/ic_exit_to_app_white_24dp"
+        app:showAsAction="ifRoom|withText"
+        />
+
+    <item
+        android:id="@+id/actionLogin"
+        android:title="Log in"
+        app:showAsAction="ifRoom"
+        android:visible="false"
+        android:icon="@drawable/ic_account_box_24dp"
+        />
+
+
+
+</menu>

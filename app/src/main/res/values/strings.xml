@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">GitHubViewer</string>
+    <string name="label_content_user_name">User name</string>
+    <string name="label_content_password">Password</string>
+    <string name="label_content_sing_in">Sing in</string>
+</resources>
